@@ -1,0 +1,132 @@
+2019-10-08 21:28:59,385 (11/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 21:28:59,385 (11/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 21:30:26,480 (12/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 21:30:26,480 (12/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 21:31:16,609 (1/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 21:31:16,609 (1/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 21:35:52,872 (12/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 21:35:52,872 (12/MainThread) athenacli.main ERROR - error: AssertionError('Required argument `s3_staging_dir` not found.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 79, in __init__
+    self.connect(aws_config, database)
+  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 201, in connect
+    database
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 35, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 44, in connect
+    poll_interval=0.2 # 200ms
+  File "/usr/local/lib/python3.7/site-packages/pyathena/__init__.py", line 55, in connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/pyathena/connection.py", line 35, in __init__
+    assert self.s3_staging_dir, 'Required argument `s3_staging_dir` not found.'
+AssertionError: Required argument `s3_staging_dir` not found.
+2019-10-08 22:44:03,780 (1/MainThread) athenacli.main ERROR - sql: '\\dt aggregates', error: DatabaseError('An error occurred (InvalidRequestException) when calling the StartQueryExecution operation: Table aggregates not found. (Service: AmazonDataCatalog; Status Code: 400; Error Code: EntityNotFoundException; Request ID: 20b69aa2-ea1d-11e9-9074-65558c0c9d51)')
+2019-10-08 22:44:03,780 (1/MainThread) athenacli.main ERROR - sql: '\\dt aggregates', error: DatabaseError('An error occurred (InvalidRequestException) when calling the StartQueryExecution operation: Table aggregates not found. (Service: AmazonDataCatalog; Status Code: 400; Error Code: EntityNotFoundException; Request ID: 20b69aa2-ea1d-11e9-9074-65558c0c9d51)')
+2019-10-08 22:44:03,781 (1/MainThread) athenacli.main ERROR - traceback: 'Traceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/pyathena/common.py", line 166, in _execute\n    **request)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 44, in retry_api_call\n    return retry(func, *args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/tenacity/__init__.py", line 358, in call\n    do = self.iter(retry_state=retry_state)\n  File "/usr/local/lib/python3.7/site-packages/tenacity/__init__.py", line 319, in iter\n    return fut.result()\n  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 425, in result\n    return self.__get_result()\n  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result\n    raise self._exception\n  File "/usr/local/lib/python3.7/site-packages/tenacity/__init__.py", line 361, in call\n    result = fn(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/botocore/client.py", line 320, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n  File "/usr/local/lib/python3.7/site-packages/botocore/client.py", line 623, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.InvalidRequestException: An error occurred (InvalidRequestException) when calling the StartQueryExecution operation: Table aggregates not found. (Service: AmazonDataCatalog; Status Code: 400; Error Code: EntityNotFoundException; Request ID: 20b69aa2-ea1d-11e9-9074-65558c0c9d51)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 299, in one_iteration\n    for title, rows, headers, status in res:\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 78, in run\n    for result in special.execute(cur, sql):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/main.py", line 74, in execute\n    return special_cmd.handler(cur=cur, arg=arg, verbose=verbose)\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/dbcommands.py", line 22, in list_tables\n    cur.execute(query)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 28, in _wrapper\n    return wrapped(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/cursor.py", line 38, in execute\n    self._query_id = self._execute(operation, parameters)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/common.py", line 169, in _execute\n    raise_from(DatabaseError(*e.args), e)\n  File "/usr/local/lib/python3.7/site-packages/future/utils/__init__.py", line 398, in raise_from\n    exec(execstr, myglobals, mylocals)\n  File "<string>", line 1, in <module>\npyathena.error.DatabaseError: An error occurred (InvalidRequestException) when calling the StartQueryExecution operation: Table aggregates not found. (Service: AmazonDataCatalog; Status Code: 400; Error Code: EntityNotFoundException; Request ID: 20b69aa2-ea1d-11e9-9074-65558c0c9d51)\n'
+2019-10-08 22:44:03,781 (1/MainThread) athenacli.main ERROR - traceback: 'Traceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/pyathena/common.py", line 166, in _execute\n    **request)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 44, in retry_api_call\n    return retry(func, *args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/tenacity/__init__.py", line 358, in call\n    do = self.iter(retry_state=retry_state)\n  File "/usr/local/lib/python3.7/site-packages/tenacity/__init__.py", line 319, in iter\n    return fut.result()\n  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 425, in result\n    return self.__get_result()\n  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result\n    raise self._exception\n  File "/usr/local/lib/python3.7/site-packages/tenacity/__init__.py", line 361, in call\n    result = fn(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/botocore/client.py", line 320, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n  File "/usr/local/lib/python3.7/site-packages/botocore/client.py", line 623, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.InvalidRequestException: An error occurred (InvalidRequestException) when calling the StartQueryExecution operation: Table aggregates not found. (Service: AmazonDataCatalog; Status Code: 400; Error Code: EntityNotFoundException; Request ID: 20b69aa2-ea1d-11e9-9074-65558c0c9d51)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 299, in one_iteration\n    for title, rows, headers, status in res:\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 78, in run\n    for result in special.execute(cur, sql):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/main.py", line 74, in execute\n    return special_cmd.handler(cur=cur, arg=arg, verbose=verbose)\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/dbcommands.py", line 22, in list_tables\n    cur.execute(query)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 28, in _wrapper\n    return wrapped(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/cursor.py", line 38, in execute\n    self._query_id = self._execute(operation, parameters)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/common.py", line 169, in _execute\n    raise_from(DatabaseError(*e.args), e)\n  File "/usr/local/lib/python3.7/site-packages/future/utils/__init__.py", line 398, in raise_from\n    exec(execstr, myglobals, mylocals)\n  File "<string>", line 1, in <module>\npyathena.error.DatabaseError: An error occurred (InvalidRequestException) when calling the StartQueryExecution operation: Table aggregates not found. (Service: AmazonDataCatalog; Status Code: 400; Error Code: EntityNotFoundException; Request ID: 20b69aa2-ea1d-11e9-9074-65558c0c9d51)\n'
+2019-10-08 23:36:17,125 (1/MainThread) athenacli.main ERROR - sql: '\\G', error: ProgrammingError('Query is none or empty.')
+2019-10-08 23:36:17,125 (1/MainThread) athenacli.main ERROR - sql: '\\G', error: ProgrammingError('Query is none or empty.')
+2019-10-08 23:36:17,132 (1/MainThread) athenacli.main ERROR - traceback: 'Traceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 78, in run\n    for result in special.execute(cur, sql):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/main.py", line 58, in execute\n    raise CommandNotFound\nathenacli.packages.special.main.CommandNotFound\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 299, in one_iteration\n    for title, rows, headers, status in res:\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 81, in run\n    cur.execute(sql)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 28, in _wrapper\n    return wrapped(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/cursor.py", line 38, in execute\n    self._query_id = self._execute(operation, parameters)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/common.py", line 154, in _execute\n    query = self._formatter.format(operation, parameters)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/formatter.py", line 94, in format\n    raise ProgrammingError(\'Query is none or empty.\')\npyathena.error.ProgrammingError: Query is none or empty.\n'
+2019-10-08 23:36:17,132 (1/MainThread) athenacli.main ERROR - traceback: 'Traceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 78, in run\n    for result in special.execute(cur, sql):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/main.py", line 58, in execute\n    raise CommandNotFound\nathenacli.packages.special.main.CommandNotFound\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 299, in one_iteration\n    for title, rows, headers, status in res:\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 81, in run\n    cur.execute(sql)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 28, in _wrapper\n    return wrapped(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/cursor.py", line 38, in execute\n    self._query_id = self._execute(operation, parameters)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/common.py", line 154, in _execute\n    query = self._formatter.format(operation, parameters)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/formatter.py", line 94, in format\n    raise ProgrammingError(\'Query is none or empty.\')\npyathena.error.ProgrammingError: Query is none or empty.\n'
+2019-10-08 23:43:54,514 (1/MainThread) athenacli.main ERROR - sql: 'select * from loan_details limit 10', error: OperationalError('SYNTAX_ERROR: line 1:15: Table awsdatacatalog.default.loan_details does not exist')
+2019-10-08 23:43:54,514 (1/MainThread) athenacli.main ERROR - sql: 'select * from loan_details limit 10', error: OperationalError('SYNTAX_ERROR: line 1:15: Table awsdatacatalog.default.loan_details does not exist')
+2019-10-08 23:43:54,516 (1/MainThread) athenacli.main ERROR - traceback: 'Traceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 78, in run\n    for result in special.execute(cur, sql):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/main.py", line 58, in execute\n    raise CommandNotFound\nathenacli.packages.special.main.CommandNotFound\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 299, in one_iteration\n    for title, rows, headers, status in res:\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 81, in run\n    cur.execute(sql)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 28, in _wrapper\n    return wrapped(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/cursor.py", line 46, in execute\n    raise OperationalError(query_execution.state_change_reason)\npyathena.error.OperationalError: SYNTAX_ERROR: line 1:15: Table awsdatacatalog.default.loan_details does not exist\n'
+2019-10-08 23:43:54,516 (1/MainThread) athenacli.main ERROR - traceback: 'Traceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 78, in run\n    for result in special.execute(cur, sql):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/packages/special/main.py", line 58, in execute\n    raise CommandNotFound\nathenacli.packages.special.main.CommandNotFound\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/local/lib/python3.7/site-packages/athenacli/main.py", line 299, in one_iteration\n    for title, rows, headers, status in res:\n  File "/usr/local/lib/python3.7/site-packages/athenacli/sqlexecute.py", line 81, in run\n    cur.execute(sql)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/util.py", line 28, in _wrapper\n    return wrapped(*args, **kwargs)\n  File "/usr/local/lib/python3.7/site-packages/pyathena/cursor.py", line 46, in execute\n    raise OperationalError(query_execution.state_change_reason)\npyathena.error.OperationalError: SYNTAX_ERROR: line 1:15: Table awsdatacatalog.default.loan_details does not exist\n'
