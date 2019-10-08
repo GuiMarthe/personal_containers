@@ -13,6 +13,8 @@ This is just an example to customize the environment in how you prefer to use a 
 
 The build directory, in this example, is this repository it self.
 
+If you want to run this example be sure to overwrite the AWS_ATHENA_S3_STAGING_DIR and AWS_DEFAULT_REGION with valid values in the Dockerfile.
+
 
 ### Building the image
 
